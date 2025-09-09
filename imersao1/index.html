@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>imersao</title>
+    <link rel="shortcut icon" href="icone.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <div class="principal">
+    <header>
+        <h1>Gatos</h1>
+        <!-- <img class="reflexao" src="reflexao.png">  -->
+    </header>
+    <main>
+        <section>
+            <input class="pesquisa" type=="text" placeholder="Digite o nome da raça do seu gato ou só gato" id="campo-pesquisa" oninput="pesquisar()">
+            <button class="pesquisar" onclick="pesquisar()">Pesquisar</button>
+        </section>
+    </div>
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
+        </section>
+    </main>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
